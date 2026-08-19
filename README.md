@@ -71,3 +71,12 @@ dataset), IMO company numbers, BIC owner-registry awareness, AWB/BOL/GS1.
 
 Built by [Novacrest](https://novacrest.ai) · from the team behind
 [OmniOrders](https://omniorders.com) · MIT © 2026 Shipedge Inc.
+
+## Edge API — worker/
+
+The same engine as a public JSON API on Cloudflare Workers — validate, repair
+(did-you-mean), mint, prefix lookup, and a production self-test:
+https://freightid.altacrest.workers.dev
+
+It powers the browser tool at https://omniorders.com/free-tools/freightid.
+Deploy instructions: worker/README.md
