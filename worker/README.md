@@ -1,7 +1,7 @@
 # freightid v2 preview — edge API
 
 The freightid engine (same math as `pip install freightid` and the
-[validator page](https://omniorders.com/free-tools/freightid)) as a public
+[validator page](https://binlogic.io/free-tools/freightid)) as a public
 JSON API on Cloudflare Workers, plus the two v2 capabilities:
 
 - **/repair** — the did-you-mean. A broken container or IMO number comes back

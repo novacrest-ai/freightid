@@ -2,7 +2,7 @@
  * freightid v2 preview — Cloudflare Worker
  *
  * Engine ported verbatim from freightid 0.1.0 (pip) via the self-tested
- * browser port on omniorders.com/free-tools/freightid.
+ * browser port on binlogic.io/free-tools/freightid.
  *
  * Endpoints (all GET, all JSON, CORS *):
  *   /            index + usage
@@ -336,7 +336,7 @@ const INDEX = {
     "/selftest": "run the full vector suite in production",
   },
   formats: ["iso6346_container", "imo_ship_number", "scac", "unlocode", "usdot_number", "mc_number"],
-  page: "https://omniorders.com/free-tools/freightid",
+  page: "https://binlogic.io/free-tools/freightid",
   library: "pip install freightid",
   honesty: 'Every result carries registration:"not_checked". A valid number proves transcription, not existence — typo-proof, not fraud-proof.',
 };
