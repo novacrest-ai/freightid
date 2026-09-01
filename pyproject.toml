@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "freightid"
-version = "0.1.0"
+version = "0.1.1"
 description = "Validate and explain logistics identifiers: ISO 6346 container numbers, IMO ship numbers, SCAC, UN/LOCODE, USDOT and MC. Checks math and format, never registration."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -23,7 +23,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://omniorders.com"
+Homepage = "https://binlogic.io/free-tools/freightid"
 Repository = "https://github.com/novacrest-ai/freightid"
 Documentation = "https://github.com/novacrest-ai/freightid#readme"
 

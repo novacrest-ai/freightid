@@ -14,7 +14,7 @@ from .scac import validate_scac
 from .unlocode import validate_unlocode
 from .usdot import validate_usdot, validate_mc
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "validate_container", "explain_container",
